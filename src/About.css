@@ -1,0 +1,163 @@
+.about-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  gap: 50px;
+}
+
+.text {
+  margin-top: 350px;
+  margin-left: 50px;
+  height: 350px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text p {
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  color: azure;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+/* //////////// animation */
+
+.App {
+  /* border: solid 1px red; */
+  text-align: center;
+  height: 100px;
+  width: 40%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.reactLogo,
+.awsLogo,
+.jsLogo,
+.nodejsLogo,
+.htmlLogo,
+.cssLogo {
+  position: absolute;
+  height: 80px;
+}
+
+/* .nodejsLogo {
+  height: 50px;
+}
+
+.htmlLogo {
+  height: 25px;
+} */
+
+.awsLogo {
+  animation: orbit1 5s infinite linear;
+}
+
+.reactLogo {
+  animation: orbit2 5s infinite linear;
+}
+
+.htmlLogo {
+  animation: orbit3 5s infinite linear;
+}
+
+.cssLogo {
+  animation: orbit4 5s infinite linear;
+}
+
+.nodejsLogo {
+  animation: orbit5 5s infinite linear;
+}
+.jsLogo {
+  animation: orbit6 5s infinite linear;
+}
+
+.imgContainer {
+  /* border: solid blue 1px; */
+  display: inline-block;
+  margin-top: 0px;
+  width: 80%;
+}
+
+.App-header {
+  /* border: solid green 1px; */
+  background: none;
+  width: 80%;
+  height: 50px;
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes orbit1 {
+  from {
+    transform: rotate(0deg) translateX(200px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit2 {
+  from {
+    transform: rotate(72deg) translateX(200px) rotate(-11deg);
+  }
+  to {
+    transform: rotate(432deg) translateX(200px) rotate(-371deg);
+  }
+}
+
+@keyframes orbit3 {
+  from {
+    transform: rotate(144deg) translateX(200px) rotate(-140deg);
+  }
+  to {
+    transform: rotate(504deg) translateX(200px) rotate(-500deg);
+  }
+}
+
+@keyframes orbit4 {
+  from {
+    transform: rotate(216deg) translateX(200px) rotate(-6deg);
+  }
+  to {
+    transform: rotate(576deg) translateX(200px) rotate(-366deg);
+  }
+}
+
+@keyframes orbit5 {
+  from {
+    transform: rotate(280deg) translateX(200px) rotate(84deg);
+  }
+  to {
+    transform: rotate(640deg) translateX(200px) rotate(-276deg);
+  }
+}
+@keyframes orbit6 {
+  from {
+    transform: rotate(320deg) translateX(200px) rotate(40deg);
+  }
+  to {
+    transform: rotate(680deg) translateX(200px) rotate(-296deg);
+  }
+}

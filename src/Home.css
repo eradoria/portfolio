@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 55px;
+}
+
+.title h1 {
+  -webkit-text-stroke: 1px darkgray;
+  text-shadow: 1px 1px 0 grey, 1px 1px 0 grey, 1px 2px 0 grey, 1px 1px 0 grey,
+    1px 1px 0 grey, 1px 1px 0 grey, 1px 1px 0 grey, 1px 1px 0 grey,
+    1px 8px 15px black;
+}
+.title h2 {
+  -webkit-text-stroke: 2px black;
+  color: darkgray;
+  text-shadow: 1px 1px 0 black, 1px 1px 0 black, 1px 2px 0 black, 1px 1px 0 black,
+    1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black,
+    1px 8px 15px black;
+}
+
+button {
+  width: 150px;
+  outline: solid 1px darkgray;
+  background-color: black;
+  color: darkgray;
+  border-radius: 10px;
+  padding: 10px;
+}

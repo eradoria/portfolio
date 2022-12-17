@@ -63,6 +63,9 @@
   left: 72%;
   height: 300px;
 }
+.my-promo-img {
+  border-radius: 40px;
+}
 
 .card .content {
   position: relative;
@@ -110,7 +113,7 @@
     margin: 10px;
   }
   .card:hover {
-    height: 600px;
+    height: 650px;
   }
   .card .content {
     width: 100%;
@@ -133,5 +136,8 @@
   }
   .card .content {
     padding: 20px 2px 20px 5px;
+  }
+  .card .content a {
+    padding: 0px 5px 0px 5px;
   }
 }

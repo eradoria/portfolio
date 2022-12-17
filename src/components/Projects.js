@@ -40,7 +40,8 @@ export default function Projects() {
         </div>
         <img
           src="https://www.knowband.com/image/cache/data/Plugin%20Logo/Marketplace-Mobile-app-opencart-logo%20500%20x%20500-300x300.jpg"
-          alt="pepsi can"
+          alt="promotion"
+          className="my-promo-img"
         />
       </div>
 
@@ -69,7 +70,7 @@ export default function Projects() {
         </div>
         <img
           src="https://miro.medium.com/max/720/0*wXx-oQd0JWn0Fb9g.webp"
-          alt="pepsi can"
+          alt="weather app"
         />
       </div>
     </div>

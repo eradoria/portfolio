@@ -1,27 +1,24 @@
-
-import './App.css';
+import "./App.css";
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
-import Nav from "./components/Nav"
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <Router>
+    <div className="App">
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
+      <div className="section-1" id="section1">
+        <Home />
+      </div>
+      <div className="section-2" id="section2">
+        <About />
+      </div>
+      <div className="section-3" id="section3">
+        <Projects />
+      </div>
+    </div>
   );
 }
 

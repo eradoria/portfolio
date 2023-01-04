@@ -1,20 +1,11 @@
 import React from "react";
-import background from "../images/background.jpg";
 import Card from "./Card";
-import "../Projects.css";
+import "../CSS/Projects.css";
 
 export default function Projects() {
   return (
-    <div
-      className="projects-container"
-      style={{
-        background: `url(${background})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        opacity: "100%",
-      }}
-    >
+    <div className="projects-container" id="projects">
+      <h1>Projects</h1>
       <Card />
     </div>
   );

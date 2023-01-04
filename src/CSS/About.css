@@ -1,0 +1,95 @@
+.about-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  border-bottom: solid rgb(234, 219, 137) 2px;
+  border-top: solid rgb(234, 219, 137) 2px;
+}
+
+.text-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.text {
+  margin-left: 50px;
+  background-color: #cfcfc5;
+  height: 400px;
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text h1 {
+  font-family: "Passions Conflict", cursive;
+  font-weight: lighter;
+  font-size: 100px;
+}
+.text p {
+  padding: 20px 20px 40px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  border: solid 1px white;
+}
+
+.image-container {
+  height: 350px;
+  width: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.image-container .img {
+  height: 550px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container .img-box {
+  border: solid rgb(234, 219, 137) 2px;
+  height: 500px;
+  width: 600px;
+}
+
+@media (max-width: 420px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    margin: 0;
+    width: 300px;
+    height: 500px;
+  }
+
+  .image-container {
+    justify-content: center;
+  }
+  .image-container .img {
+    height: 400px;
+    width: 300px;
+  }
+  .image-container .img-box {
+    height: 350px;
+    width: 250px;
+  }
+}

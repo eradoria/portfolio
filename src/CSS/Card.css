@@ -17,6 +17,7 @@
   align-items: center;
   border-radius: 20px;
   transition: 0.5s;
+  border: solid rgb(234, 219, 137) 2px;
 }
 
 .card .circle {
@@ -44,6 +45,7 @@
 .card:hover .circle:before {
   background: lightgray;
   clip-path: circle(400px at center);
+  border: solid rgb(234, 219, 137) 2px;
 }
 
 .card img {
@@ -84,6 +86,7 @@
   font-size: 2em;
   line-height: 1em;
   margin-bottom: 5px;
+  border-bottom: solid rgb(234, 219, 137) 2px;
 }
 .card .content p {
   color: black;

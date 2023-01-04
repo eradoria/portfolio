@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+li div {
+  cursor: pointer;
+}
+
 .nav-link {
   text-decoration: none;
   color: darkgray;
@@ -111,7 +115,8 @@ a {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
-    z-index: 1;
+    position: auto;
+    /* z-index: 1; */
   }
 }
 

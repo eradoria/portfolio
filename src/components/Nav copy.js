@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaHome, FaConnectdevelop, FaDev } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "../Navbar.css";
 
 function Navigation() {
@@ -25,14 +25,8 @@ function Navigation() {
         <li className="nav-item">
           <div className="home">
             <FaHome size="25" color="darkgrey" />
-            <Link
-              activeClass="home-container"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <Link className="nav-link" to={"/"}>
+              {" "}
               Home
             </Link>
           </div>
@@ -51,14 +45,8 @@ function Navigation() {
           </div>
           <div className="projects">
             <FaDev size="25" color="darkgrey" />
-            <Link
-              activeClass="projects-container"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <Link className="nav-link" to={"/projects"}>
+              {" "}
               Projects
             </Link>
           </div>

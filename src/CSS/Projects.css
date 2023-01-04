@@ -6,6 +6,14 @@
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+  border-bottom: solid rgb(234, 219, 137) 2px;
+  border-top: solid rgb(234, 219, 137) 2px;
+}
+.projects-container h1 {
+  margin: 0;
+  font-family: "Passions Conflict", cursive;
+  font-weight: lighter;
+  font-size: 100px;
 }
 
 /* ////////////////////////////////Phone SIZE ////////////////////////////////////*/
@@ -22,5 +30,8 @@
     grid-auto-rows: auto;
     gap: 0;
     overflow: auto;
+  }
+  .projects-container h1 {
+    display: flex;
   }
 }

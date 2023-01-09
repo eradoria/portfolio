@@ -46,7 +46,8 @@ export default function About() {
               <FaLinkedin size="55" color="grey" className="linkedin" />
             </a>
             <a
-              href="https://www.linkedin.com/in/erick-doria-hernandez"
+              onClick={() => (window.location = "mailto:yourmail@domain.com")}
+              href=" "
               target="_blank"
               rel="noreferrer"
             >

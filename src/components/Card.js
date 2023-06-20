@@ -38,6 +38,37 @@ export default function Card() {
       <div className="card">
         <div className="circle"></div>
         <div className="content">
+          <h2>Table Tennis League</h2>
+          <p>
+            This app uses React, Node.js and MongoDb. While utilizing API
+            fetching to pull down players, ranking, and matches. The ablity to
+            view, create and modify standings.
+          </p>
+          <a
+            href="https://tylertabletennis.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Version
+          </a>
+          <a
+            href="https://github.com/eradoria/TTT-backend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code
+          </a>
+        </div>
+        <img
+          src="https://cdn.pixabay.com/photo/2022/05/23/16/05/table-tennis-7216579_1280.png"
+          alt="promotion"
+          className="my-promo-img"
+        />
+      </div>
+
+      <div className="card">
+        <div className="circle"></div>
+        <div className="content">
           <h2>Weather App</h2>
           <p>
             This app uses React and utilizes API fetching in order to display

@@ -5,7 +5,9 @@ import resume from "../Docs/Erck Hernandez Resume2.pdf";
 export default function Home() {
   return (
     <div className="home-container" id="home">
-      <div className="box" />
+      <div className="box">
+        
+        </div>
       <div className="title-container">
         <div class="title">
           <h1>Erick Hernandez</h1>

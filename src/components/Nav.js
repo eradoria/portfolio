@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import { FaHome, FaConnectdevelop, FaDev } from "react-icons/fa";
 import { Link } from "react-scroll";
-import "../Navbar.css";
+import "../CSS/Navbar.css";
 
 function Navigation() {
   const [active, setActive] = useState("nav-menu");
   const [toggleIcon, setToggleIcon] = useState("nav-toggler");
 
   const navToggle = () => {
-    active === "nav-menu"
-      ? setActive("nav-menu nav-active")
-      : setActive("nav-menu");
+    active === "nav-menu" ? setActive("nav-active") : setActive("nav-menu");
 
     // TogglerIcon /
     toggleIcon === "nav-toggler"
@@ -36,7 +34,7 @@ function Navigation() {
               Home
             </Link>
           </div>
-          <div className="about" >
+          <div className="about">
             <FaConnectdevelop size="25" color="darkgrey" />
             <Link
               activeClass="about-container"
@@ -67,6 +65,7 @@ function Navigation() {
       <div onClick={navToggle} className={toggleIcon}>
         <div className="line1"></div>
         <div className="line2"></div>
+        <div className="line3"></div>
       </div>
     </nav>
   );
